@@ -1,0 +1,129 @@
+body{
+    margin:  0 5%; 
+    background-color: rgb(202, 202, 202);
+}
+
+.col p{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.1rem; 
+    line-height: 1.5;
+    text-align: left; 
+   
+}
+
+.navbar {
+    background-color: #0a0a0a;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 1.2rem;
+    padding: 0.5rem; 
+    margin-bottom: 2rem; 
+    z-index: 1000; /*Para que no se superponga ni el acordeon ni el carrusel a la nav*/
+}
+
+/* Personaliza el estilo del carrusel */
+#carouselExampleSlidesOnly {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+
+.navbar, a {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.grande {
+    font-size: 2rem;
+}
+
+body {
+    color: #0a0a0a;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4rem; 
+}
+
+.center-carousel{
+    align-items: center;
+}
+
+
+.accordion {
+    max-width: 30%; 
+    display: block;
+    
+}
+
+  
+.accordion-button {
+    max-width: 100%; 
+}
+
+.accordion-body {
+    max-width: 100%; 
+}
+
+@media  (max-width: 767px){
+   
+    h1, #carouselExampleSlidesOnly{
+        display: none;
+    }
+
+    body{
+        margin-top: 10px;
+    }
+
+    #accordionFlushExample{
+        display: none;
+        max-width: 100%;
+        position: relative;
+        margin-top: 60px;
+    }
+    .reorganizar-sm{
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    a #smmdCarruselIr{
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    body{
+        margin-top: 10px;
+    }
+
+    h1, #carouselExampleSlidesOnly{
+        display: none;
+    }
+    
+    #accordionFlushExample{
+        display: none;
+        max-width: 100%;
+        position: relative;
+        margin-top: 55px;
+    }
+    .reorganizar-md{
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+
+
+
+

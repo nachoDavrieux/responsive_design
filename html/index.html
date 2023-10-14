@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Individual</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="lg">
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../html/index.html"><strong>Juegos de Mesa</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/categorias.html">Categorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/probar.html">Probar Online</a>
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <a id="smmdCarruselIr" class="nav-link" href="#accordionFlushExample">Juegos Populares</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <h1>Juegos de mesa</h1>
+
+        <!-- Carrusel -->
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>Estrategia - Descubre juegos que desafiarán tu mente y te permitirán desarrollar estrategias para la victoria.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>Diversión en familia - Reúne a tus seres queridos y disfruta de emocionantes noches de juegos de mesa juntos.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>Creatividad ilimitada - Explora juegos que te invitarán a ser creativo y pensar de manera innovadora para superar desafíos únicos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container text-center">
+            <div class="row reorganizar-md reorganizar-sm">
+                <div class="accordion accordion-flush"  id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Catan
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> El catan es un juego de estrategia en el que los jugadores compiten por colonizar una isla, recolectar recursos, construir asentamientos y ciudades, y acumular puntos de victoria. El primer jugador en alcanzar un número específico de puntos gana el juego. La negociación y el comercio son aspectos clave del juego, ya que los jugadores intercambian recursos para avanzar en sus objetivos. Es un juego de estrategia y competencia en un mundo ficticio.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Musa
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Musa es un juego de mesa de adivinanzas y creatividad en el que los jugadores tratan de comunicarse utilizando cartas de obras de arte. El objetivo es que los demás jugadores adivinen la obra de arte correcta mientras el jugador que actúa como "musa" proporciona pistas sin hablar ni usar gestos. Ganar puntos al adivinar correctamente y al lograr que otros adivinen es esencial para ganar el juego. "Musa" se centra en la apreciación del arte y la comunicación sin palabras.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                No lo testeamos ni un poco
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No Lo Testeamos Ni Un Poco es un juego de mesa que pone a los jugadores en situaciones inusuales y cómicas en las que deben utilizar su creatividad y lógica para encontrar soluciones a problemas absurdos. El objetivo es enfrentar desafíos ridículos y crear respuestas ingeniosas para ganar puntos. Es un juego que fomenta la diversión y la imaginación, ya que los jugadores deben pensar de manera no convencional para resolver problemas absurdos.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class "accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Monopoly
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Monopoly es un juego de mesa de negocios y bienes raíces en el que los jugadores compran, venden e intercambian propiedades para construir imperios inmobiliarios y arruinar a sus oponentes. El objetivo es acumular propiedades y dinero mientras se evita la bancarrota. El jugador que termine con más riqueza al final del juego gana.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p>Los juegos de mesa tienen una historia rica y diversa que se extiende por miles de años. Su origen se remonta a las civilizaciones antiguas, como los egipcios, que crearon tableros de juegos como el Senet hace más de 3.000 años. Estos juegos eran una parte fundamental de la cultura y se consideraban incluso acompañantes en el más allá. A medida que las civilizaciones florecieron, surgieron juegos en diferentes partes del mundo, como el ajedrez en la India y el Go en China.</p>
+                </div>
+                <div class="col">
+                    <p>En la Edad Media, los juegos de mesa adquirieron un carácter más elitista y educativo, siendo apreciados por la nobleza europea. El ajedrez se convirtió en un juego emblemático de estrategia. A lo largo de la historia, los juegos de mesa han evolucionado y se han adaptado a las cambiantes sociedades, desde la producción en masa en la Revolución Industrial hasta el auge de juegos como el Monopoly y el Scrabble en el siglo XX. Hoy en día, estos juegos ofrecen una amplia variedad de experiencias, desde entretenimiento familiar hasta desafíos estratégicos, lo que demuestra que su historia continúa en constante evolución.</p>
+                </div>
+                <div class="col">
+                    <p>En la era digital actual, los juegos de mesa han experimentado un resurgimiento, ya que las personas buscan maneras de desconectar de las pantallas y disfrutar de experiencias táctiles y sociales. Así, la historia de los juegos de mesa es un viaje a través del tiempo que ha influido en la cultura, la educación y la interacción social, proporcionando diversión y aprendizaje a generaciones de personas en todo el mundo.</p>
+                </div>
+              
+            </div>
+        </div>
+
+        <br>
+        <!-- Opciones -->
+        
+    </div>
+
+    <div id="md" class="container-md">
+        <!-- Contenido específico para pantallas medianas -->
+    </div>
+
+    <div id="sm" class="container-sm">
+        <!-- Contenido específico para pantallas pequeñas -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../js/responsive.js"></script>
+</body>
+</html>
