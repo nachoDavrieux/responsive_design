@@ -74,6 +74,7 @@ h1 {
     max-width: 100%; 
 }
 
+/*SM*/
 @media  (max-width: 767px){
    
     h1, #carouselExampleSlidesOnly{
@@ -98,10 +99,11 @@ h1 {
     a #smmdCarruselIr{
         display: block;
     }
+    
 
 }
 
-
+/*MD*/
 @media (min-width: 768px) and (max-width: 991px){
 
     body{
@@ -117,6 +119,7 @@ h1 {
         max-width: 100%;
         position: relative;
         margin-top: 55px;
+        
     }
     .reorganizar-md{
         flex-direction: column;
