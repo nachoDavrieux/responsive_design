@@ -16,6 +16,3 @@ document.addEventListener("DOMContentLoaded", function() {
         elemento.style.display = (elemento.style.display === "none") ? "block" : "none";
     });
 });
-
-
-
